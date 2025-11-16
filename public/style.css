@@ -1,0 +1,35 @@
+/* Black + Red Dreamwidth‑era aesthetic */
+body { background:#000; color:#d9d9d9; font-family: Georgia, "Times New Roman", serif; margin:0 }
+#wrapper { width: 780px; margin:40px auto; padding:25px; background: rgba(10,0,0,.92); border:1px solid #660000; box-shadow:0 0 24px #440000 }
+header { text-align:center; border-bottom:1px solid #330000; margin-bottom:18px; padding-bottom:10px }
+h1 { margin:0; color:#ff1a1a; letter-spacing:2px; text-shadow:0 0 10px #990000 }
+.subtitle { color:#990000 }
+nav { text-align:center; margin:18px 0 }
+nav ul { list-style:none; padding:0 }
+nav li { display:inline; margin:0 10px }
+nav a { color:#ff3333; text-decoration:none; font-weight:bold; font-family: Tahoma, sans-serif }
+nav a:hover, nav a.active { color:#fff; text-shadow:0 0 8px #ff0000 }
+
+
+h2 { color:#ff0000; border-bottom:1px solid #330000; padding-bottom:4px; margin-top:24px }
+.panel { border:1px solid #330000; background: rgba(40,0,0,.35); padding:15px }
+.row { display:flex; flex-direction:column; margin-bottom:12px }
+label { color:#ff3333; font-weight:bold; margin-bottom:4px }
+input, select, textarea { background:#0a0000; color:#fff; border:1px solid #660000; padding:8px; font-family: Tahoma, sans-serif }
+input:focus, select:focus, textarea:focus { outline:none; box-shadow:0 0 8px #770000 }
+
+
+.notice { background: rgba(102,0,0,.25); border:1px solid #660000; padding:10px; margin:12px 0; color:#f0caca }
+.actions { display:flex; gap:10px; align-items:center }
+.button { border:1px solid #660000; color:#ff3333; background: rgba(20,0,0,.45); padding:8px 14px; text-decoration:none; cursor:pointer }
+.button:hover { background:#660000; color:#fff }
+.button.alt { background: transparent }
+
+
+.credential { max-width:100%; border:1px solid #660000; box-shadow:0 0 10px #440000 }
+.center { text-align:center }
+.small { font-size:.9em; color:#bbb }
+
+
+/* Micro 2004 vibe accents */
+body { background-image: linear-gradient(to bottom, rgba(255,0,0,.02), rgba(0,0,0,0)); background-attachment: fixed }
